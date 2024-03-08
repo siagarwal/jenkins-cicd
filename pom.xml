@@ -12,6 +12,7 @@
 	<artifactId>cicd</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>cicd</name>
+	<packaging>war</packaging>
 	<description>cicd</description>
 	<properties>
 		<java.version>17</java.version>
@@ -36,6 +37,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>jenkinsCiCd</finalName>
 	</build>
 
 </project>
